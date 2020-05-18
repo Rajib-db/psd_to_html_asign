@@ -1,0 +1,146 @@
+/* large desktops :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* desktops :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .mape_bg {
+        background: #eef1ec url(../images/mape.png) no-repeat 150% center;
+        padding: 90px 0 90px;
+    }
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .banner_area .row {
+        min-height: 400px;
+    }
+
+    .responsive_sec img {
+        width: 100%;
+        padding-top: 80px;
+    }
+
+    .respon_text {
+        padding-top: 65px;
+    }
+
+    p {
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    .testi_section {
+        padding: 60px 0;
+    }
+    .mape_bg {
+	background: #eef1ec url(../images/mape.png) no-repeat 431% center;
+	padding: 60px 0 60px;
+    }
+    .pricing_section {
+	padding: 35px 0;
+}
+    .pricing_section .section-title {
+	margin-bottom: 30px;
+}
+    .download_sec h2 {
+	font-size: 23px;
+}
+    #footer {
+	padding: 0;
+}
+    .widget, .about_footer {
+	padding-top: 20px;
+}
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.banner_area {
+	text-align: center;
+}
+    .banner_area .row {
+	min-height: 300px;
+}
+    .pt-100 {
+	padding-top: 40px;
+}
+    .pb-120 {
+	padding-bottom: 20px;
+}
+    .mb-60 {
+	margin-bottom: 30px;
+}
+    section.responsive_sec {
+	background: #eef1ec;
+	padding-top: 30px;
+}
+    .respon_text {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+    .testi_section {
+	padding: 40px 0;
+	text-align: center;
+}
+    .mape_bg {
+	padding: 50px 0;
+	background: #eef1ec;
+	text-align: center;
+}
+    .pricing_section {
+	padding: 30px 0;
+}
+    .pricing_section .pricing-table:nth-child(1) {
+	margin-bottom: 30px;
+}
+    .pricing_section .pricing-table:nth-child(3) {
+	margin-top: 30px;
+}
+    .pricing_section .pricing-table {
+	padding: 6% 0;
+}
+    .pricing_plans-area {
+	padding: 50px 0;
+}
+.download_sec {
+	text-align: center;
+	padding: 35px 0;
+}
+    .download_sec p {
+	margin-bottom: 13px;
+}
+    #footer {
+	padding: 0;
+}
+    #footer .footer_widget_wrap {
+	padding: 10px 0;
+	text-align: center;
+}
+    .about_footer, .widget {
+	margin-bottom: 20px;
+}
+    .button_footer {
+	text-align: center;
+}
+    .footer_social {
+	justify-content: center;
+}
+    .pricing_section .pricing-table:nth-child(1), 
+    .pricing_section .pricing-table:nth-child(3){
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
